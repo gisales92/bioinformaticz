@@ -13,6 +13,9 @@
 # Print current date
 date
 
+# Load star
+module load star
+
 # Loop through each R1 file
 for R1 in *_1.trimmed.fastq.gz
 do
