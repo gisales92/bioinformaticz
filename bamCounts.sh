@@ -25,6 +25,7 @@ featureCounts \
   -t exon \
   -g gene_id \
   -s 0 \
+  -p \
   ./star_output/*_Aligned.sortedByCoord.out.bam
 
 echo "featureCounts completed!"
